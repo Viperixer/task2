@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    height: 100vh;
+}
+.top{
+    height: 50%;
+    max-height: 50%;
+    width: 100%;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.shapka{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    margin:0px;
+}
+.name{
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 15px 0px 0px 300px;
+}
+
+.name p{
+    margin: 0px;
+}
+
+.list{
+    color: yellow;
+    margin: 0px 0px 0px 20%;
+    display: inline-flex;
+}
+
+.list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    height: 50px;
+}
+
+.list ul li{
+    margin: 0px 0px 0px 30px;
+    display: block;
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 10px;
+}
+.list ul li:hover{
+    background-color:yellow;
+    color: aqua;
+    cursor: pointer;
+    font-weight: bold;
+}
+.middleShit{
+    display: flex;
+    justify-content: Space-between;
+    width: 50%;
+    margin: 10px auto 10px;
+    padding: 0px;
+}
+
+.textTop{
+    align-self: flex-start;
+    color: red;
+    font-size: 100px;
+    width: 500px;
+    box-sizing: border-box;
+}
+.textTop p{
+    margin: 0px;
+    text-align: center;
+}
+
+.imgTop{
+    height: 200px;
+    widows: 300px;
+    margin: auto;
+    padding: 0px;
+    align-self: flex-end;
+}
+
+.imgTopDva{
+    height: 200px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+.buttons{
+    display: table;
+    position: absolute;
+    bottom: 0;
+    margin-left: 48%;
+}
+
+.bottom{
+    box-sizing: border-box;
+    height: 50%;
+    margin: 0px;
+    width:100%;
+    display: flex;
+    padding: 5% 17% 0% 17%;
+}
+
+
+.text1{
+    width: 200px;
+    text-align: center;
+    margin: 0%;
+}
+.text1 span{
+    color:#707070;
+}
+.img1{
+    height:100px;
+    width: 100px;
+    margin: 0%;
+}
+
+.text2{
+    margin: 0% auto 0px;
+    width: 200px;
+    text-align: center;
+}
+.text2 span{
+    color:#707070;
+}
+
+.img2{
+    height:100px;
+    width: 100px;
+}
+
+.text3{
+    width: 200px;
+    text-align: center;
+    margin: 0%;
+}
+.text3 span{
+    color:#707070;
+}
+.img3{
+    height:100px;
+    width: 100px;
+}
